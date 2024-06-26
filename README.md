@@ -78,8 +78,8 @@ In this guide, we will create an externally accessible static website using an A
    - For Linux, open Terminal
 
 2. **Connect to the VM:**
-   - Locate the Directory where the ssh key file is stored.
-   - Chmod 400 the ssh key file to give only the owner read access.
+   - Locate the Dir where the ssh key file is stored.
+   - Chmod 400 the the ssh key file to give only the owner read access.
 
 ![ssh](chmod-permission-ssh-key.png)
 
@@ -181,5 +181,5 @@ In this guide, we will create an externally accessible static website using an A
 
 ### Conclusion
 
-- Challenges faced: DNS propagation.
+- Challenge faced: DNS propagation.
 - Successfully created an externally accessible static website using an Azure Virtual Machine with Apache, cloned a repository to replace the default page, and set up Azure Front Door for better traffic management.
